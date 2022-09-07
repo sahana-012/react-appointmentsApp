@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.appointment-display-container {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  margin-right: 15px;
+}
+
+.title-and-star-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 110%;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.favorite-icon-container {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.favorite-icon {
+  background: transparent;
+  margin-right: 24px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+.date {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin: 0px;
+}
